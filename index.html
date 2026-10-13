@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KazCEP — строительство базовых станций</title>
+  <meta name="description" content="Строительство базовых станций сотовой связи под ключ: проектирование, фундаменты и опоры, монтаж оборудования, пусконаладка.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+        <path d="M16 8 L10 29 M16 8 L22 29 M12.6 20 H19.4 M11.4 25 H20.6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="16" cy="7" r="2" fill="var(--accent)"/>
+        <path d="M10.5 3.5 a8 8 0 0 0 0 7 M21.5 3.5 a8 8 0 0 1 0 7" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span>Kaz<b>CEP</b></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#process">Этапы</a>
+      <a href="#team">Команда</a>
+      <a href="#contacts" class="nav__cta">Контакты</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow"><span class="dot"></span>Строительство базовых станций под ключ</p>
+        <h1>Строим связь<br><span class="grad">там, где её ещё нет</span></h1>
+        <p class="lead">Команда из 10 специалистов: проектируем, возводим опоры, монтируем и запускаем базовые станции для сотовых операторов.</p>
+        <div class="hero__actions">
+          <a href="#contacts" class="btn btn--primary">Обсудить проект <span aria-hidden="true">→</span></a>
+          <a href="#services" class="btn btn--ghost">Что мы делаем</a>
+        </div>
+      </div>
+
+      <div class="tower" aria-hidden="true">
+        <span class="wave"></span><span class="wave"></span><span class="wave"></span>
+        <svg viewBox="0 0 200 320" class="tower__svg">
+          <defs>
+            <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ffffff"/>
+              <stop offset="1" stop-color="#ffffff" stop-opacity=".15"/>
+            </linearGradient>
+          </defs>
+          <g stroke="url(#tg)" stroke-width="3" fill="none" stroke-linecap="round">
+            <path d="M100 40 L55 310 M100 40 L145 310"/>
+            <path d="M88 110 H112 M78 170 H122 M68 230 H132 M60 285 H140"/>
+            <path d="M88 110 L122 170 M112 110 L78 170 M78 170 L132 230 M122 170 L68 230 M68 230 L140 285 M132 230 L60 285"/>
+          </g>
+          <rect x="70" y="58" width="12" height="34" rx="3" fill="#ff6a1a"/>
+          <rect x="118" y="58" width="12" height="34" rx="3" fill="#ff6a1a"/>
+          <rect x="94" y="66" width="12" height="30" rx="3" fill="#22d3ee"/>
+          <circle cx="100" cy="34" r="6" fill="#ff6a1a" class="beacon"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="stats">
+        <li><strong data-count="10">10</strong><span>специалистов в штате</span></li>
+        <li><strong data-count="3000" data-suffix="+">3 000+</strong><span>новых базовых станций</span></li>
+        <li><strong data-count="10000" data-suffix="+">10 000+</strong><span>модернизированных станций</span></li>
+        <li><strong data-count="10" data-suffix="+">10+</strong><span>лет на рынке</span></li>
+        <li><strong>2G–5G</strong><span>все стандарты связи</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Проектирование</span><span>Фундаменты</span><span>Башни и мачты</span><span>АФУ</span><span>RRU / BBU</span><span>РРЛ</span><span>Электромонтаж</span><span>Пусконаладка</span><span>2G · 3G · 4G · 5G</span>
+      <span>Проектирование</span><span>Фундаменты</span><span>Башни и мачты</span><span>АФУ</span><span>RRU / BBU</span><span>РРЛ</span><span>Электромонтаж</span><span>Пусконаладка</span><span>2G · 3G · 4G · 5G</span>
+    </div>
+  </div>
+
+  <section class="section" id="services">
+    <div class="container">
+      <p class="eyebrow reveal">Услуги</p>
+      <h2 class="reveal">Полный цикл — от площадки до первого сигнала</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__top"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 20V9l7-5 7 5v11M9 20v-6h6v6"/></svg></div><span class="card__num">01</span></div>
+          <h3>Изыскания и проект</h3>
+          <p>Обследование площадки, геология, согласования, рабочая документация.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__top"><div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3 7 21M12 3l5 18M9 13h6M8 17h8M4 21h16"/></svg></div><span class="card__num">02</span></div>
+          <h3>Фундаменты и опоры</h3>
+          <p>Устройство фундаментов, монтаж башен, мачт и трубостоек, кровельные решения.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__top"><div class="icon"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="6" height="12" rx="1"/><rect x="14" y="3" width="6" height="12" rx="1"/><path d="M7 15v6M17 15v6M4 21h16"/></svg></div><span class="card__num">03</span></div>
+          <h3>Монтаж оборудования</h3>
+          <p>Установка антенно-фидерных устройств, RRU, BBU, шкафов и РРЛ.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__top"><div class="icon"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div><span class="card__num">04</span></div>
+          <h3>Электромонтаж</h3>
+          <p>Электроснабжение, заземление и молниезащита, системы резервного питания.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__top"><div class="icon"><svg viewBox="0 0 24 24"><path d="M5 12a7 7 0 0 1 14 0M8.5 12a3.5 3.5 0 0 1 7 0"/><circle cx="12" cy="12" r="1"/><path d="M12 13v8"/></svg></div><span class="card__num">05</span></div>
+          <h3>Пусконаладка</h3>
+          <p>Настройка, юстировка антенн, измерения и сдача объекта оператору.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__top"><div class="icon"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div><span class="card__num">06</span></div>
+          <h3>Обслуживание</h3>
+          <p>Плановое ТО, аварийные выезды, модернизация действующих станций.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="process">
+    <div class="container">
+      <p class="eyebrow reveal">Этапы работ</p>
+      <h2 class="reveal">Как мы работаем</h2>
+      <ol class="steps">
+        <li class="reveal"><span class="steps__n">1</span><h3>Заявка</h3><p>Получаем ТЗ от оператора, оцениваем объём и сроки.</p></li>
+        <li class="reveal"><span class="steps__n">2</span><h3>Выезд на объект</h3><p>Обследуем площадку и готовим проектное решение.</p></li>
+        <li class="reveal"><span class="steps__n">3</span><h3>Строительство</h3><p>Фундамент, опора, монтаж оборудования и электрики.</p></li>
+        <li class="reveal"><span class="steps__n">4</span><h3>Запуск</h3><p>Пусконаладка, исполнительная документация, сдача.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="container">
+      <p class="eyebrow reveal">Команда</p>
+      <h2 class="reveal">10 человек, которые отвечают за результат</h2>
+      <div class="team">
+        <div class="member reveal"><div class="avatar" style="--h:20">ЕС</div><h3>Ерлан Сейткали</h3><p>Руководитель проектов</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:200">НЖ</div><h3>Нурлан Жумабеков</h3><p>Главный инженер</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:330">АК</div><h3>Айгерим Касымова</h3><p>Инженер-проектировщик</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:150">ДА</div><h3>Даурен Абенов</h3><p>Прораб</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:260">АН</div><h3>Арман Нурпеисов</h3><p>Монтажник-высотник</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:40">БА</div><h3>Бауыржан Ахметов</h3><p>Монтажник-высотник</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:180">ЕС</div><h3>Ержан Сагинтаев</h3><p>Монтажник-высотник</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:0">АМ</div><h3>Асхат Мусин</h3><p>Электромонтажник</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:220">ТИ</div><h3>Тимур Искаков</h3><p>Инженер пусконаладки</p></div>
+        <div class="member reveal"><div class="avatar" style="--h:290">ДО</div><h3>Динара Омарова</h3><p>Инженер по документации</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="why">
+    <div class="container">
+      <p class="eyebrow reveal">Почему мы</p>
+      <h2 class="reveal">Небольшая команда — короткий путь к решению</h2>
+      <ul class="why">
+        <li class="reveal"><span class="why__n">01</span><h3>Свои специалисты</h3><p>Все этапы выполняет штатная команда, без цепочки субподрядчиков.</p></li>
+        <li class="reveal"><span class="why__n">02</span><h3>Допуски и безопасность</h3><p>Работы на высоте и с электроустановками — с допусками и по нормам ОТ.</p></li>
+        <li class="reveal"><span class="why__n">03</span><h3>Соблюдение сроков</h3><p>Один ответственный за проект и прозрачная отчётность на каждом этапе.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="contacts">
+    <div class="container">
+      <div class="contacts reveal">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2>Расскажите о вашем объекте</h2>
+          <p class="lead">Ответим в течение рабочего дня и предложим сроки и стоимость.</p>
+        </div>
+        <ul class="contact-list">
+          <li><span>Телефон</span><a href="tel:+77272000000">+7 (727) 200-00-00</a></li>
+          <li><span>Email</span><a href="mailto:info@kazcep.kz">info@kazcep.kz</a></li>
+          <li><span>Адрес</span><p>г. Алматы, пр. Абая, 100, офис 10</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">© <span id="year">2026</span> KazCEP. Строительство базовых станций сотовой связи.</div>
+</footer>
+
+<script>
+  const burger = document.getElementById('burger');
+  const nav = document.getElementById('nav');
+  burger.addEventListener('click', () => {
+    const open = nav.classList.toggle('nav--open');
+    burger.setAttribute('aria-expanded', open);
+  });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('nav--open');
+    burger.setAttribute('aria-expanded', false);
+  }));
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const header = document.getElementById('header');
+  addEventListener('scroll', () => header.classList.toggle('header--scrolled', scrollY > 10), { passive: true });
+
+  // Появление блоков и счётчики — только если пользователь не отключил анимацию
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduce && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('js-anim');
+    const io = new IntersectionObserver(entries => entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+    }), { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    const fmt = n => n.toLocaleString('ru-RU').replace(/ /g, ' ');
+    document.querySelectorAll('[data-count]').forEach(el => {
+      const target = +el.dataset.count, suffix = el.dataset.suffix || '';
+      const start = performance.now(), dur = 1600;
+      const tick = t => {
+        const p = Math.min((t - start) / dur, 1);
+        el.textContent = fmt(Math.round(target * (1 - Math.pow(1 - p, 3)))) + suffix;
+        if (p < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    });
+  }
+</script>
+</body>
+</html>
